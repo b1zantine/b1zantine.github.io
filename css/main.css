@@ -297,7 +297,7 @@ footer span, footer a, footer a:visited{
 font-family: 'GeosansLight';
 font-style: normal;
 font-weight: normal;
-src: local('GeosansLight'), url('font/GeosansLight.woff') format('woff');
+src: local('GeosansLight'), url('../font/GeosansLight.woff') format('woff');
 }
 
 
