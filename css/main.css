@@ -122,16 +122,16 @@ a,a:visited,a:hover,a:active{
     width: 500px;
     float: left;
 }
-#show-buttons a{
+#show-buttons p{
+  font-family: 'GeosansLight';
     font-size: 24px;
-    display: block;
-    padding-bottom: 15px;
+    cursor: pointer;
+    line-height: 24px;
 }
-#show-buttons a::before{
+#show-buttons p::before{
     content: '>  ';
     font-weight: bold;
-    font-size: 25px;
-    line-height: 12px;
+    font-size: 27px;
 }
 #show-buttons{
     width:100px;
