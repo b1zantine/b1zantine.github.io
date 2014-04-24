@@ -198,6 +198,10 @@ a,a:visited,a:hover,a:active{
         text-align: center;
     }
 
+    #cube .projects a{
+      text-decoration: underline;
+    }
+
     #cube .front  {
       -webkit-transform: translateZ( 200px );
          -moz-transform: translateZ( 200px );
