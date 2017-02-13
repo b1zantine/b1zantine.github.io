@@ -1,0 +1,24 @@
+name: Sudar Abisheck
+description: Random musings of a Machine Learning enthusiast
+meta_description: "Sudar Abisheck, Neural Networks, Deep Learning, Machine learning, CUDA, CNN, LSTM, Convolutional Neural Networks, ResNet"
+
+markdown: kramdown
+# markdown: maruku
+highlighter: pygments
+logo: false
+paginate: 7
+baseurl: /
+
+permalink: blog/:title/
+
+
+domain_name: 'https://sudar.me'
+google_analytics: 'UA-48301279-4'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url: 'https://sudar.me'
+author: 'Sudar Abisheck'
+
+disqus:
+  shortname: 'sudarabisheck'

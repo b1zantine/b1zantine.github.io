@@ -1,6 +1,4 @@
-#sudar.me
- :earth_asia:  http://www.sudar.me
+# Sudar's Blog
 
-####Thanks
-- https://github.com/h5bp/html5-boilerplate
-- http://desandro.github.io/3dtransforms/
+[sudar.me](https://sudar.me)
+

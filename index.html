@@ -1,157 +1,70 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Sudar Abisheck</title>
-        
-        <!-- Behavioral Meta Data -->
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 ">
+---
+layout: default
+title: Home
+cover: false
+---
+
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+            {% if site.logo %}
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                </a>
+            {% endif %}
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ site.name }}</h1>
+            <h2 class="page-description">
+                {% if site.description %} {{ site.description }}. {% endif %}
+            </h2>
+            <a class="link-menu-button" href="{{ site.baseurl }}blog/">Blog</a>
+            <a class="link-menu-button" href="{{ site.baseurl }}notes/">Notes</a>
+            <a class="link-menu-button" href="{{ site.baseurl }}about/">About</a>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
 
 
-		<!-- Core Meta Data -->
-		<meta name="author" content="Sudar Abisheck">
-		<meta name="description" content="Sudar Abisheck is a Computer Science student who is fuelled by the will to learn new things. Most of his skills are self taught.">
-		<meta name="keywords" content="sudar, abisheck, sudar abisheck,  photoshop user, designer, food lover, tech-savvy, chennai, tamil nadu, india, photographer , desigineer, radus , linux lover">
-
-		<!-- Open Graph Meta Data -->
-		<meta property="og:description" content="Sudar Abisheck is a Computer Science student who is fuelled by the will to learn new things. Most of his skills are self taught.">
-		<meta property="og:image" content="https://sudarabisheck.github.io/thumbnail.png">
-		<meta property="og:site_name" content="Sudar Abisheck">
-		<meta property="og:title" content="Sudar Abisheck">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://sudar.me">
-
-		<!-- Twitter Card Meta Data -->
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="https://sudar.me">
-		<meta name="twitter:creator" content="@SudarAbisheck">
-		<meta name="twitter:title" content="Sudar Abisheck">
-		<meta name="twitter:description" content="Sudar Abisheck is a Computer Science student who is fuelled by the will to learn new things. Most of his skills are self taught.">
-		<meta name="twitter:image" content="https://sudarabisheck.github.io/thumbnail.png">
-
-		<!-- Humans -->
-		<link rel="author" href="humans.txt" />
-
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link rel="shortcut icon" href="favicon.png" type="image/png">
-
-		<!-- Apple Touch Icons -->
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
-
-		<!-- Google Rich Snippets -->
-		<link rel="author" href="https://plus.google.com/u/0/+SudarAbisheckReezy"/>
-
-        <!-- Styles -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
-    </head>
-
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-       	<section class='wrap'>
-       		<section class='left-box'>
-       			<section class='smallspace'></section>
-       			<a href='https://sudar.me' id='title'>sudar + abisheck</a>
-			    <section id="show-buttons">
-		
-			    	<p class="show-back">about</p>
-			    	<p class="show-right">my works</p>
-			    	<p class="show-left">links</p>
-			    	<p class="show-top">say hello</p>
-			    	<!--<p class="show-bottom">Credits</p> -->
-
-			    </section>
-       		</section>
+<main id="content" class="content" role="main">
 
 
-       	    <section class='right-box'>
-       	    	<section class='bigspace'></section>
-       	    	<section class="container">
-					<div id="cube" class="show-front">
-						<section class="front nothing"><span>!</span></section>
-					    <section class="back">
-					    	<section class='cube-text'>
-					    		<article class='vcard'>
-						    		<p>
-						    			Nothing can be and can not be one and at the same time and I am. I am <span class='fn'><span class="n"><span class="given-name">Sudar</span> <span class="additional-name">Abisheck</span></span></span>.
-						    			I am nicknamed, '<span class='nickname'>Radus</span>'.
-						    		</p>
-						    		<p>
-						    			I am a <span class='role'>Computer Science Student</span> at <span class='org'>SSN College of Engineering, Chennai, Tamil Nadu, India</span>. I really like to play around with my computer.
-						    		</p>
-						    		<p>
-						    			In short, I love what I do and I do what I love. 
-						    		</p>
-						    		<p>
-						    			Stay Hungry. Stay Foolish.
-						    		</p>
-					    		</article>
-					    	</section>
-					    </section>
-					    <section class="right projects">
-					    	<p><a href="http://maglevis.hol.es"><b>MagLevis</b></a> - A mini project for DBMS class.</p>
-                <p><a href="resources/fresh-catch.apk"><b>Fresh Catch</b></a> - An Android game for kids.</p>
-                <p><a href="https://paradigm-2k15.github.io"><b>Paradigm 2k15</b></a> - Website for the Symposium conducted by CSE Dept. of SSNCE, Chennai.</p>
-					    </section>
-					    <section class="left">
-					    	<section class='cube-text'>
-					    		<a href='http://www.ssn.edu.in'>SSN College of Engineering</a><br/><br/>
-					    		<a href='https://about.me/sudarabisheck'>About.me</a><br/><br/>
-					    		<a href="https://twitter.com/SudarAbisheck" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @SudarAbisheck</a><br/><br/>
-					    		<iframe src="https://ghbtns.com/github-btn.html?user=sudarabisheck&amp;type=follow"
-  allowtransparency="true" frameborder="0" scrolling="0" width="157" height="40"></iframe>
-					    	</section>
-					    </section>
-					    <section class="top nothing">
-					    	<section class='cube-text'>
-					    		<a href='mailto:sudarabisheck@gmail.com'>sudarabisheck@gmail.com</a><br/><br/>
-					    		<a href='mailto:hey@sudar.me'>hey@sudar.me</a><br/><br/>
-					    		<a href="https://twitter.com/sudarabisheck" class="twitter-share-button" data-lang="en">let's tweet</a><br/><br/>
-					    	</section>
-					    </section>
-					    <section class="bottom nothing"><span>?</span></section>
-				    </div>
-				</section>
+    <div class="extra-pagination inner">
+        {% include pagination.html %}
+    </div>
 
-       	    </section>
-       	    <footer class='clearboth'>
-			    	<p>copyright &copy;2015 . <a href='https://github.com/sudarabisheck'>Sudar Abisheck</a> . Proudly Hosted on <a href='http://github.com' target='_blank' rel='nofollow'>GitHub</a> .</p>
-			</footer>
-       	</section>
-       	       	
+    {% for post in paginator.posts %}
+
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <a class="read-more" href="{{ post.url }}">{{ post.description }}</a>
+        </header>
+        <!-- <section class="post-excerpt">
+            {{ post.description }}
+            <a class="read-more" href="{{ post.url }}">&raquo;</a>
+            <a class="read-more" href="{{ post.url }}">{{ post.description }}</a>
+        </section> -->
+        <footer class="post-meta">
+            <!-- {% if site.author %}
+                <img class="author-thumb" src="/assets/images/profile.jpg" alt="Author's profile picture" nopin="nopin" />
+                <i>{{ site.author }}</i>
+            {% endif %} -->
+            {% if post.categories.size > 0 %}
+                <!-- {{ post.categories | array_to_sentence_string | prepend: 'on ' }} -->
+                {{ post.categories | array_to_sentence_string }}
+            {% endif %}
+            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+                {{ post.date | date_to_string }}
+            </time>
+        </footer>
+    </article>
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        
-        <script src="js/rotate-box.js"></script>
-        <script src="js/window.js"></script>
-        <script src="js/utils.js"></script>
+    {% endfor %}
 
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-        </script>
-       
-        <script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
-	  ga('create', 'UA-48301279-4', 'auto');
-	  ga('send', 'pageview');
+    {% include pagination.html %}
 
-	</script>
-    </body>
-</html>
+</main>
