@@ -4,7 +4,8 @@ meta_description: "Sudar Abisheck, Neural Networks, Deep Learning, Machine learn
 
 markdown: kramdown
 # markdown: maruku
-highlighter: pygments
+# highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 7
 baseurl: /
