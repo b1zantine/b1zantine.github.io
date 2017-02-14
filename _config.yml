@@ -6,7 +6,7 @@ markdown: kramdown
 # markdown: maruku
 # highlighter: pygments
 highlighter: rouge
-logo: false
+logo: true
 paginate: 7
 baseurl: /
 

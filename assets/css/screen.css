@@ -559,22 +559,31 @@ margin on the iframe, cause it breaks stuff. */
     display: none
 }
 
-/* Appears in the top right corner of your home page */
+/* Appears in the top left corner of your home page */
 .blog-logo {
     display: block;
     float: left;
     background: none !important;
     border: none !important;
+    /*width: 64px;*/
+    /*margin: 0 auto;*/
 }
 
 .blog-logo img {
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+          transition:         transform .5s ease-in-out;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 38px;
+    height: 52px;
     padding: 1px 0 5px 0;
     width: auto;
+}
+
+.blog-logo img:hover {
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
 }
 
 .back-button {
@@ -1403,7 +1412,7 @@ body:not(.post-template) .post-title {
         height: auto;
         min-height: 240px;
         height: 60%;
-        padding: 15% 0;
+        padding: 10% 0;
     }
 
     .scroll-down,
@@ -1538,7 +1547,7 @@ body:not(.post-template) .post-title {
     }
 
     .blog-logo img {
-        height: 26px;
+        height: 42px;
     }
 
     .back-button,
@@ -1552,10 +1561,11 @@ body:not(.post-template) .post-title {
     .back-button:hover,
     .subscribe-button:hover,
     .link-menu-button:hover {
-        border-color: #ebeef0;
         color: #2e2e2e;
         background: #ebeef0;
     }
+
+    .subscribe-button:hover{border-color: #ebeef0;}
 
     .back-button {
         padding: 0 15px 0 10px;
@@ -1564,6 +1574,8 @@ body:not(.post-template) .post-title {
     .subscribe-button {
         padding: 0 12px;
     }
+
+    .link-menu-button { padding: 0 10px;  margin-bottom: 0px; }
 
     .main-nav.overlay a:hover {
         color: #fff;
