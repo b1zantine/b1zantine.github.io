@@ -3,9 +3,14 @@ description: Random musings of a Machine Learning enthusiast
 meta_description: "Sudar Abisheck, Neural Networks, Deep Learning, Machine learning, CUDA, CNN, LSTM, Convolutional Neural Networks, ResNet"
 
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # markdown: maruku
 # highlighter: pygments
-highlighter: rouge
+# highlighter: rouge
+
 logo: true
 paginate: 7
 baseurl: /
