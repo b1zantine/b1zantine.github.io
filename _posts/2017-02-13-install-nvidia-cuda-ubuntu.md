@@ -52,7 +52,7 @@ the driver successfully.
 8. After the installation is completed, check if device nodes are present:
 Check if `/dev/nvidia*` files exist. If they don't, then do `sudo modprobe nvidia`
 
-9.  Set Environment path variables:
+9.  Set Environment path variables:  
 ```bash
 echo "export PATH=/usr/local/cuda/bin:$PATH" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH" >> ~/.bashrc
