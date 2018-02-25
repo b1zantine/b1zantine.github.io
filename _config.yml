@@ -1,5 +1,5 @@
-name: Sudar Abisheck
-description: Random musings of a Machine Learning enthusiast
+name: Sudar's blog
+description: Random musings of the RNN I was born with
 meta_description: "Sudar Abisheck, Neural Networks, Deep Learning, Machine learning, CUDA, CNN, LSTM, Convolutional Neural Networks, ResNet"
 
 markdown: kramdown
@@ -21,7 +21,7 @@ permalink: blog/:title/
 
 domain_name: 'https://sudar.me'
 google_analytics: 'UA-48301279-4'
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url: 'https://sudar.me'

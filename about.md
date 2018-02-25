@@ -2,9 +2,9 @@
 layout: page
 title: About me
 ---
-I am **Sudar Abisheck**  
-Computer Science Undergrad Student.  
-From **Chennai, India**.  
+I am **Sudar Abisheck**.
+From **Bengaluru, India**.  
+
 Opinions are my own. Code snippets are open source.  
 
 Github - **[Profile Link](https://github.com/SudarAbisheck)**  
