@@ -17,7 +17,11 @@ These are my personal notes taken during the course.
     * Math for Data Analysis
 
 - Statistics Essentials
-    * [CRISP-DM Framework]({{site.url}}/pgdmlai-notes/statistics-essentials/crisp-dm/)
+    * [CRISP-DM Framework]({{site.url}}/pgdmlai-notes/statistics-essentials/crisp-dm)
+
+- Inferential Statistics
+    * [Introduction]({{site.url}}/pgdmlai-notes/inferential-statistics)
+    * [Probability - Basics]({{site.url}}/pgdmlai-notes/inferential-statistics/basic-probability)
 
 
 #### Glossary
