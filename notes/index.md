@@ -5,9 +5,16 @@ title: Notes
 
 This page is used to collect notes. I use this to share relevant notes, links and documents. Feel free to browse them.
 
+---
+##### Personal
+- [PGDMLAI Notes]({{ site.url }}/pgdmlai-notes/)
+
+---
 
 - <http://iamaaditya.github.io/notes/>
 - <http://frnsys.com/ai_notes/>
+
+---
 
 ### Blogroll
 - <http://colah.github.io>
@@ -24,6 +31,7 @@ This page is used to collect notes. I use this to share relevant notes, links an
 - <http://blog.kaggle.com/>
 - <http://www.erogol.com/>
 
+---
 
 ### Blog Aggregators
 - <http://mlwave.com/>
