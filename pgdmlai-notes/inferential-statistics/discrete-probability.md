@@ -135,3 +135,20 @@ However, there are some conditions that need to be followed in order for us to b
 1. **Total number** of trials is <mark>fixed</mark> at $n$
 2. Each trial is **binary**, i.e., has only **two possible outcomes** - success or failure
 3. **Probability of success** is same in all trials, denoted by $p$
+
+---
+##### Cumulative Probability Distribution
+
+
+The **cumulative probability of X**, denoted by $F(x)$, is defined as the **probability of the variable being less than or equal to $x$**.
+
+In mathematical terms, you would write cumulative probability $F(x) = P(X \leq x)$. For example, $F(4) = P(X \leq 4)$, $F(3) = P(X \leq 3)$.
+
+
+|   $X$   |   $F(X) = P(X \leq x)$      |
+|:-------:|:---------------------------:|
+| 0       | 0.0256                      |
+| 1       | 0.1792                      |
+| 2       | 0.5248                      |
+| 3       | 0.8704                      |
+| 4       | 1.0000                      |
