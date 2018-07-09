@@ -22,6 +22,7 @@ These are my personal notes taken during the course.
 - Inferential Statistics
     * [Introduction]({{site.url}}/pgdmlai-notes/inferential-statistics/)
     * [Probability - Basics]({{site.url}}/pgdmlai-notes/inferential-statistics/basic-probability/)
+    * [Discrete Probability - Binomial Distribution]({{site.url}}/pgdmlai-notes/inferential-statistics/discrete-probability/)
 
 
 #### Glossary
