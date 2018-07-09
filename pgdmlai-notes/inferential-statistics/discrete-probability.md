@@ -119,7 +119,6 @@ Let $n$ be the number of trials and $r$ be number of trials where red ball was p
 | 3       | $nC_3 (p)^3 (1-p)^{n-3}$   |
 | .       | .                          |
 | .       | .                          |
-| .       | .                          |
 | n       | $nC_n (p)^n (1-p)^{0}$     |
 
 
@@ -128,7 +127,7 @@ Thus, the **binomial probability equation** is derived.
 
 $$P(X = r) =\text{ }^nC_r (p)^r (1-p)^{n-r} $$
 
-Where $n$ is **no. of trials**, $p$ is **probability of success** and $r4 is **no. of successes** after n trials.
+Where $n$ is **no. of trials**, $p$ is **probability of success** and $r$ is **no. of successes** after $n$ trials.
 
 
 However, there are some conditions that need to be followed in order for us to be able to apply the formula.
