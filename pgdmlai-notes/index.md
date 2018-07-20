@@ -24,6 +24,10 @@ These are my personal notes taken during the course.
     * [Probability - Basics]({{site.url}}/pgdmlai-notes/inferential-statistics/basic-probability/)
     * [Discrete Probability - Binomial Distribution]({{site.url}}/pgdmlai-notes/inferential-statistics/discrete-probability/)
 
+- Exploratory Data Analysis
+    * [Introduction]({{site.url}}/pgdmlai-notes/eda/)
+    * [Data Sourcing and Cleaning](./eda/data-sourcing-and-cleaning/)
+
 
 #### Glossary
 
