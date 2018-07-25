@@ -27,6 +27,7 @@ These are my personal notes taken during the course.
 - Exploratory Data Analysis
     * [Introduction]({{site.url}}/pgdmlai-notes/eda/)
     * [Data Sourcing and Cleaning](./eda/data-sourcing-and-cleaning/)
+    * [Univariate Analysis](./eda/univariate-analysis)
 
 
 #### Glossary
