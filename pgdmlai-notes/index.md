@@ -28,6 +28,7 @@ These are my personal notes taken during the course.
     * [Introduction]({{site.url}}/pgdmlai-notes/eda/)
     * [Data Sourcing and Cleaning](./eda/data-sourcing-and-cleaning/)
     * [Univariate Analysis](./eda/univariate-analysis)
+    * [Segmented Univariate Analysis](./eda/segmented-univariate)
 
 
 #### Glossary
