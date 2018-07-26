@@ -2,6 +2,7 @@
 layout: section
 title: Univariate Analysis
 home: pgdmlai-notes
+use_math: true
 ---
 
 
@@ -109,3 +110,83 @@ From the above plot, we can clearly conclude that the answer would be **0-10 run
 
 From the above plot, the answer is clearly **0**.
 
+---
+
+#### Quantitative Variables
+
+
+Numeric variables can be treated as ordered categorical variables. For analysis, you can deliberately convert numeric variables into ordered categorical, for example, if you have incomes of a few thousand people ranging from $$ \text{\$5,000 to \$100,000} $$, you can categorise them into bins such as [5000, 10000], [10000,15000] and [15000, 20000].
+
+This is called **'binning'**.
+
+Apart from this, we can use summary metrics to do univariate analysis on a single field.
+
+
+| Terms | Description|
+| ----- | ---------- |
+| First (Q1) and Third (Q3) Quantile | Q1: Value at 25th percentile of the range; Q2: Value at 75th percentile of the range |
+| Median | Middle value of a data set,ie value at 50th percentile |
+| Mean | Average value of a dataset |
+| Mode | Value that occurs most often in the dataset |
+| Variance | Measure of the deviation of the data points from the mean of the set |
+| Standard Deviation | Measure of the deviation of the data points from the mean of the set. $$ SD = { \sqrt {Variance} } $$ |
+
+
+While mean gives an average of all the values, median gives a typical value that could be used to represent the entire group. <mark>As a simple rule of thumb, always question someone if someone uses the mean, since median is almost always a better measure of ‘representativeness’</mark>.
+
+
+> __which metric to use?__
+
+> Consider the example — there are a group of middle-class IT employees and Bill Gates in a room. If you want to get a rough sense of the income made by a typical IT employee, which metric would you choose?
+
+> The average, calculated taking Bill Gates’ income into account, would be an overwhelmingly large number far from the income of any other IT employee in the room. On the other hand, the median will not consider Bill Gates’ income and would be more representative.
+
+
+**Mode** on the other hand is used only for categorical data. In unordered categorical variables, any order or difference between values is not defined. So, using median and mean make no sense here.
+
+The **interquartile range (IQR)** is a measure of variability, based on dividing a data set into quartiles.
+Quartiles divide a rank-ordered data set into four equal parts. The values that divide each part are called the first, second, and third quartiles; and they are denoted by Q1, Q2, and Q3, respectively.
+
+* Q1 is the "middle" value in the first half of the rank-ordered data set.
+* Q2 is the median value in the set.
+* Q3 is the "middle" value in the second half of the rank-ordered data set.
+
+**The interquartile range is equal to Q3 minus Q1.**
+
+Standard deviation and interquartile difference are both used to represent the spread of the data.
+
+_Interquartile difference is a much better metric than standard deviation if there are outliers in the data. This is because the standard deviation will be influenced by outliers while the interquartile difference will simply ignore them._
+
+For Quantitative Variables, we can use **box plots** to understand the spread of the data.
+
+* Why median is better than mean in some cases?
+
+        Median is better than Mean when we have outliers in the dataset.
+
+* Why Standard Deviation exaggerates the spread in some cases?
+
+        Again the same reason as above. When there are outliersin the dataset, the SD value might get shot up and fails to convey the actual spread of the data.
+
+* How to communicate the amount of spread?
+
+        To communicate the amount of spread, the _quartiles_ can be used instead. The difference between Q3 and Q1 gives better picture. Box plots can be used to visualize it. 
+
+
+A good way to visualise quartiles is to use a box plot. The 25th percentile is represented by the bottom horizontal line of the box, the 75th is the top line of the box, and the median is the line between them.
+
+
+<figure>
+ <img class="small-img" src="../assets/images/box-plot.png" alt="Box Plot">
+ <figcaption>Box Plot</figcaption>
+</figure>
+
+---
+
+
+#### Summary
+
+1. **Metadata description** describes the data in a structured way. You should make it a habit of creating a metadata description for whatever data set you are working on. Not only will it serve as a reference point for you, it will also help other people understand the data better and save time.
+
+2. **Distribution plots** reveal interesting insights about the data. You can observe various visible patterns in the plots and try to understand how they came to be.
+
+3. **Summary metrics** are used to obtain a quantitative summary of the data. Not all metrics can be used everywhere. Thus, it is important to understand the data and then choose what metric to use to summarise the data.
