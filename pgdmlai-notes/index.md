@@ -29,7 +29,7 @@ These are my personal notes taken during the course.
     * [Data Sourcing and Cleaning](./eda/data-sourcing-and-cleaning/)
     * [Univariate Analysis](./eda/univariate-analysis)
     * [Segmented Univariate Analysis](./eda/segmented-univariate)
-
+    * [Bivariate Analysis](./eda/bivariate-analysis)
 
 #### Glossary
 
