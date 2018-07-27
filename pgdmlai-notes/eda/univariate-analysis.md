@@ -38,7 +38,7 @@ Variables can be broadly classified into
 
 #### UnOrdered Categorical Variables
 
-Now, imagine someone (say a client) gives you only an unordered categorical variable (and nothing else!), such as a column of size 4000 named 'country_of_person' with 130 unique countries and asks you 'can you extract anything useful from just this one variable?'. 
+Now, imagine someone $$\text{(say a client)}$$ gives you only an unordered categorical variable $$\text{(and nothing else!)}$$, such as a column of size 4000 named 'country_of_person' with 130 unique countries and asks you 'can you extract anything useful from just this one variable?'. 
 
 Since, the data that the column can contain is from a predefined category set, we can count the frequency each category and rank it based on the frequency.
 
@@ -56,7 +56,7 @@ The objective of using a log scale is to make the plot readable by changing the 
 
 Plotting on a log scale compresses the values to a smaller scale which makes the plot easy to read.
 
-This happens because log(x) is a much smaller number than x. For example, log(10) = 1, log(100) = 2, log(1000) = 3 and so on. Thus, log(29000) is now approx. 4.5, log(3500) is approx. 3.5 and so on. What was earlier varying from 29000 to 1 is now compressed between 4.5 and 0, making the values easier to read on a plot.
+This happens because $$log(x)$$ is a much smaller number than x. For example, $$log(10) = 1$$, $$log(100) = 2$$, $$log(1000) = 3$$ and so on. Thus, $$log(29000)$$ is now approx. 4.5, $$log(3500)$$ is approx. 3.5 and so on. What was earlier varying from 29000 to 1 is now compressed between 4.5 and 0, making the values easier to read on a plot.
 
 > Employment Data :  [__Download__](../assets/data/employment-data.csv)
 
@@ -84,7 +84,7 @@ The dataset given below contains Sachin Tendulkar's ODI batting statistics from 
 
 The variables 'Runs' and 'X4s' respectively represent the number of runs scored and number of 4s hit by him in each match. These are two ordered categorical variables that we will analyze here.
 
-Runs', which should ideally be a numeric variable, contains some entries such as DNB (Did Not Bat), 8* (Not out at 8 runs) etc. These has to be cleaned to prevent quality issues. 
+Runs', which should ideally be a numeric variable, contains some entries such as DNB $$\text{(Did Not Bat), 8* (Not out at 8 runs)}$$ etc. These has to be cleaned to prevent quality issues. 
 
 Similarly, in 'X4s', there are some missing entries represented by "-". While cleaning "-" are converted to "0". 
 
@@ -124,7 +124,7 @@ Apart from this, we can use summary metrics to do univariate analysis on a singl
 
 | Terms | Description|
 | ----- | ---------- |
-| First (Q1) and Third (Q3) Quantile | Q1: Value at 25th percentile of the range; Q2: Value at 75th percentile of the range |
+| First $$\text{(Q1)}$$ and Third $$\text{(Q3)}$$ Quantile | Q1: Value at 25th percentile of the range; Q2: Value at 75th percentile of the range |
 | Median | Middle value of a data set,ie value at 50th percentile |
 | Mean | Average value of a dataset |
 | Mode | Value that occurs most often in the dataset |
@@ -144,7 +144,7 @@ While mean gives an average of all the values, median gives a typical value that
 
 **Mode** on the other hand is used only for categorical data. In unordered categorical variables, any order or difference between values is not defined. So, using median and mean make no sense here.
 
-The **interquartile range (IQR)** is a measure of variability, based on dividing a data set into quartiles.
+The **interquartile range $$\text{(IQR)}$$** is a measure of variability, based on dividing a data set into quartiles.
 Quartiles divide a rank-ordered data set into four equal parts. The values that divide each part are called the first, second, and third quartiles; and they are denoted by Q1, Q2, and Q3, respectively.
 
 * Q1 is the "middle" value in the first half of the rank-ordered data set.
