@@ -30,6 +30,7 @@ These are my personal notes taken during the course.
     * [Univariate Analysis](./eda/univariate-analysis)
     * [Segmented Univariate Analysis](./eda/segmented-univariate)
     * [Bivariate Analysis](./eda/bivariate-analysis)
+    * [Derived Metrics](./eda/derived-metrics)
 
 #### Glossary
 
