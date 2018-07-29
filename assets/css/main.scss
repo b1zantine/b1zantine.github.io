@@ -12,3 +12,12 @@
 @import
 	"syntax"
 ;
+
+
+div.highlighter-rouge pre {
+    padding: 2em;
+    margin-bottom: 0;
+    background-color: #fdf6e3;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}

@@ -43,12 +43,12 @@ The data set attached below contains the exchange prices of various currencies i
 
 The following currencies are being analyzed: Euro, Japanese Yen, U.K. Pound Sterling, US Dollar, Australian Dollar, Indian Rupee.
 
-{% highlight python %}
+```python
 fig, ax = plt.subplots(figsize=(10,10))
 corr = df[["Indian Rupee", "Australian Dollar", "U.S. Dollar", "Japanese Yen", "Euro"]].corr()
 sns.heatmap(corr, xticklabels=corr.columns.values, yticklabels=corr.columns.values, annot=True, ax=ax)
 plt.show()
-{% endhighlight %}
+```
 
 <figure>
  <img class="med-img" src="../assets/images/currencies_correlation_heatmap.png" alt="Correlation between Currencies">
