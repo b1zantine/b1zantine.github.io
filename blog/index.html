@@ -8,11 +8,11 @@ logo: ../assets/images/logo.png
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
             {% if site.logo %}
-                <a class="blog-logo" href="{{ site.baseurl }}">
+                <a class="blog-logo" href="../">
                     <img src="{{ page.logo }}" alt="Logo" />
                 </a>
             {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+        <a class="subscribe-button icon-feed" href="../feed.xml">Subscribe</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
@@ -20,9 +20,9 @@ logo: ../assets/images/logo.png
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}
             </h2>
-            <a class="link-menu-button" href="{{ site.baseurl }}">Home</a>
-            <a class="link-menu-button" href="{{ site.baseurl }}notes/">Notes</a>
-            <a class="link-menu-button" href="{{ site.baseurl }}about/">About</a>
+            <a class="link-menu-button" href="../">Home</a>
+            <a class="link-menu-button" href="../notes/">Notes</a>
+            <a class="link-menu-button" href="../about/">About</a>
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
